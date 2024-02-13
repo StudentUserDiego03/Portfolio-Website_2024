@@ -1,0 +1,36 @@
+body{
+    width: 1298px;
+    margin: 0 auto;
+}
+
+header{
+    background-image:linear-gradient(rgb(27, 27, 27), rgb(60, 60, 60));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 10px 10px 10px black;
+}
+header nav{
+    margin-inline-end: 30px;
+}
+header nav a{
+    color: white;
+}
+
+section{
+
+    background-color: #474849;
+}
+
+
+
+footer{
+    background-image: linear-gradient(rgb(60, 60, 60), rgb(27, 27, 27));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
