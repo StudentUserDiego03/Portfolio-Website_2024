@@ -39,7 +39,6 @@ footer{
     background-image: linear-gradient(rgb(60, 60, 60), rgb(27, 27, 27));
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     
 }
@@ -50,5 +49,37 @@ footer{
     width: 100px;
     height: 40px;
     padding: 5px;
-    margin-inline-start: 14px;
+    
 }   
+.callToAction a{
+    color: black;
+}
+
+section{
+    margin-inline-start: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+.HP-gallery{
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: -10px;
+
+}
+
+.HP-gallery img{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.footerlinks{
+    display: flex;
+    flex-direction: column;
+}
