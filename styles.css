@@ -34,6 +34,7 @@ header nav a{
     margin: 7px;
 }
 
+
 main{
 
 background-color: #474849;
@@ -102,6 +103,17 @@ section{
     margin-top: 50px;
     
 }
+.galleryUnitText{
+    display: block;
+}
+
+.galleryUnitText h3{
+    font-size: 40px;
+}
+.galleryUnitText p{
+    font-size: 22px;
+}
+
 .galleryUnit img{
     background-color: white;
     width: 600px;
@@ -112,6 +124,7 @@ section{
     
 }
 
+
 .UXgalleryUnit{
     display: flex;
     justify-content: center;
@@ -119,12 +132,25 @@ section{
     
 }
 
+.UXgalleryUnitText{
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+}
+
 .UXgalleryUnit img{
     background-color: white;
-    width: 600px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     margin:20px;
     box-shadow: 0px 5px 10px black;
     color: black;
+}
 
+.UXgalleryUnitText h3{
+    font-size: 40px;
+}
+.UXgalleryUnitText p{
+    font-size: 20px;
+    margin-top: -30px;
 }
