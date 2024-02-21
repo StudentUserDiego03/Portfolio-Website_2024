@@ -6,6 +6,7 @@ body{
     width: 1198px;
     margin: 0 auto;
     background-image: linear-gradient(white, rgb(152, 151, 151));
+    background-attachment: fixed;
 }
 
 header{
@@ -73,9 +74,26 @@ footer div a{
 section{
     margin-inline-start: 20px;
     color: white;
-    font-size: 15px;
     margin-top: 20px;
     font-family: "Raleway", sans-serif;;
+}
+
+section h2{
+    font-size: 25px;
+}
+section p{
+    font-size: 17px;
+}
+section h3{
+    font-size: 20px;
+}
+
+.landingScreen{
+    height: 300px;
+}
+.landingText{
+    font-family: "Raleway", sans-serif;
+    margin-inline-start: 50px;
 }
 
 
@@ -115,7 +133,6 @@ section{
 }
 
 .galleryUnit img{
-    background-color: white;
     width: 600px;
     height: 500px;
     margin:20px;
