@@ -19,6 +19,7 @@ header{
     box-shadow: 0px 10px 10px black;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
+    position: relative;
 }
 
 h1{
@@ -40,6 +41,7 @@ main{
 
 background-color: #474849;
 padding-bottom: 80px;
+padding-top: 20px;
 }
 
 
@@ -90,6 +92,7 @@ section h3{
 
 .landingScreen{
     height: 300px;
+    padding: 35px;
 }
 .landingText{
     font-family: "Raleway", sans-serif;
@@ -118,7 +121,7 @@ section h3{
 .galleryUnit{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    
     
 }
 .galleryUnitText{
@@ -145,7 +148,7 @@ section h3{
 .UXgalleryUnit{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: ;
     
 }
 
