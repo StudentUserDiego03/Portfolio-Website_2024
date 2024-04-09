@@ -190,3 +190,69 @@ section h3{
     font-size: 20px;
     margin-top: -30px;
 }
+
+
+
+
+
+@media (max-width: 330px) {
+    body{
+        width: 330px;
+        margin: 0 auto;
+        background-image: none;
+    }
+    header{
+        align-self: auto;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+    }
+    header nav{
+        display: flex;
+        margin-inline-end: auto;
+
+    }
+
+    section{
+        text-align: center;
+        display: block;
+        margin-inline-start: 0;
+    }
+
+    footer{
+        text-align: center;
+        justify-content: center;
+    }
+    footer div{
+        margin: 5px;
+    }
+
+
+    .landingText{
+        font-family: "Raleway", sans-serif;
+        margin-inline-start: -15px;
+    
+    }
+    .landingText h2{
+        font-size: 35px;
+    }
+    .landingText p{
+        font-size: 15px;
+    }
+    
+    .HP-gallery{
+        display: flex;
+        flex-direction: column;
+        margin-inline-start: auto;
+        align-self: center;
+    
+    }
+    .HP-gallery img{
+        background-color: white;
+        width: 300px;
+        height: 400px;
+        margin: 10px;
+        color: black;
+    }
+
+}
